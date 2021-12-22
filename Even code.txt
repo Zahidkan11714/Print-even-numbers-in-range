@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int from,to;
+	cout<<"\n Enter you from print even: ";
+	cin>>from;
+	cout<<"\n Enter you to print even: ";
+	cin>>to;
+	
+	cout<<"\n *** Even numbers from "<<from<<" to "<<to<<" ***\n";
+	for(int i=from; i<=to; i++)
+	{
+		if(i%2==0)
+		{
+			cout<<i<<"  ";
+		}
+	}
+}
