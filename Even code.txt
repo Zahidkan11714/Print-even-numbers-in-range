@@ -3,9 +3,9 @@ using namespace std;
 int main()
 {
 	int from,to;
-	cout<<"\n Enter you from print even: ";
+	cout<<"\n Enter number from print even: ";
 	cin>>from;
-	cout<<"\n Enter you to print even: ";
+	cout<<"\n Enter number to: ";
 	cin>>to;
 	
 	cout<<"\n *** Even numbers from "<<from<<" to "<<to<<" ***\n";
